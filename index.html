@@ -10,11 +10,11 @@
         const urlParams = new URLSearchParams(window.location.search);
         const code = urlParams.get("code");
         const codeVerifier = urlParams.get("code_verifier");
-        if (code) {
-          window.location.replace("myapp://phoneNumber?code=" + code + "&tikTok=true" + "&codeVerifier=" + codeVerifier);
-        } else {
-          window.location.replace("myapp://signUpProvider");
-        }
+        // if (code) {
+        //   window.location.replace("myapp://phoneNumber?code=" + code + "&tikTok=true" + "&codeVerifier=" + codeVerifier);
+        // } else {
+        //   window.location.replace("myapp://signUpProvider");
+        // }
       };
     </script>
   </head>
