@@ -9,7 +9,6 @@
       window.onload = function () {
         const urlParams = new URLSearchParams(window.location.search);
         const code = urlParams.get("code");
-        document.getElementById("code").innerHTML = urlParams;
         if (code) {
           window.location.replace("myapp://phoneNumber?code=" + code + "&tikTok=true");
         } else {
