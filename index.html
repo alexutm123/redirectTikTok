@@ -10,9 +10,9 @@
         const urlParams = new URLSearchParams(window.location.search);
         const code = urlParams.get("code");
         if (code) {
-          window.location.replace("myapp://signUpProvider?code=" + code + "&tikTok=true");
+          window.location.replace("myapp://?code=" + code + "&tikTok=true");
         } else {
-          window.location.replace("myapp://signUpProvider");
+          window.location.replace("myapp://");
         }
       };
     </script>
