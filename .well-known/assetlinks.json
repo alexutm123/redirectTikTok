@@ -5,7 +5,8 @@
         "namespace": "android_app",
         "package_name": "com.zak_2211.greatbloop",
         "sha256_cert_fingerprints": 
-        ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"]
+        ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+        "98:1E:D9:C4:B0:F5:70:21:CC:25:F8:3D:23:DC:31:2A:25:EB:3C:CF:CA:61:18:A1:79:C9:A3:D0:25:CF:AF:D3"]
       }
     }
   ]
